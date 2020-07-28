@@ -28,7 +28,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-
       - name: Download built artifact
         uses: actions/download-artifact@master
         with:
